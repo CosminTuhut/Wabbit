@@ -1,0 +1,72 @@
+ /*/////// Navigation bar//////////*/
+.navbar a {
+    float: right;
+    display: block;
+    color: #222222;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+	font-family: 'Squada One', cursive;
+}
+.navbar a:hover {
+	text-shadow: 2px 2px 5px red;
+}
+#logo {
+  height: 40px;
+  vertical-align: middle;
+  padding: 5px 10px 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px 0px;
+    float: right;
+    vertical-align: middle;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+}
+.navbar {
+  display: flex;
+}
+nav {
+	background-color: white;
+	margin-bottom: 20px;
+	vertical-align: center;
+}
+
+/*    MAIN BODY       */
+body {
+	background-color: #e3e4e5;
+}
+
+/*    POST      */
+.post {
+	display: flex;
+	background-color: white;
+	max-width: 75%;
+	box-shadow: 0px 10px 21px 0px rgba(0,0,0,0.75);
+	align-items: center;
+	margin:auto;
+}
+.post .voting {
+	max-width: 100%;
+	align-self: stretch;
+	padding: 5% 5% 5%;
+	margin: 5px 5px 5px 5px;
+}
+.post .title {
+	display:flex;
+	align-self: stretch;
+	padding-left: 20px; 
+}
+.imagepost {
+	display: flex;
+	max-width: 100%;
+}
+.content{
+	padding-left: 10px;
+}
